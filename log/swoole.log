@@ -1,0 +1,10 @@
+worker run! 
+worker run! 
+worker run! 
+worker run! 
+manager run! 
+server run! 
+[2014-10-20 00:30:43]	WARN	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=0.
+[2014-10-20 00:34:29]	WARN	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=0.
+[2014-10-20 00:37:28]	WARN	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=0.
+[2014-10-20 00:40:37]	WARN	swServer_signal_hanlder: Fatal Error: manager process exit. status=0, signal=0.
