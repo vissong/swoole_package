@@ -1,0 +1,4 @@
+[2014-10-24 00:20:18]	WARN	swSocket_listen: bind(0.0.0.0:9000) failed. Error: Address already in use [48]
+[2014-10-24 00:20:18]	WARN	swServer_start_proxy: ReactorThread start failed
+[2014-10-24 00:20:25]	WARN	swSocket_listen: bind(0.0.0.0:9000) failed. Error: Address already in use [48]
+[2014-10-24 00:20:25]	WARN	swServer_start_proxy: ReactorThread start failed
