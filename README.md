@@ -3,7 +3,7 @@ swoole_package
 
 ### 说明
 
-基于 swoole，封装了在命令号模式下使用的 SwooleServer 类，支持配置。支持初始化框架文件。
+基于 swoole，封装了在命令行模式下使用的 SwooleServer 类，支持配置。支持初始化框架文件。
 完善冷启动，热启动，重启，监控等配套工具。
 
 ### 目的
