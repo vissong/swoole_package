@@ -19,7 +19,8 @@ $client = new swoole_client($type);
 $client->connect('127.0.0.1', $_serverPort);
 
 
-        $b = $client->send(str_repeat('aaaa', 508) . "\r\n");
-        var_dump($b);
-        var_dump($client->recv());
-        var_dump(socket_strerror($client->errCode));
+while(1) {
+$b = $client->send(str_repeat('aaaa', 508) . "\r\n");
+var_dump($b);
+var_dump($client->recv());
+}

@@ -12,6 +12,3 @@
 if (!IN_SWOOLE) {
     exit('this script only work in SwooleServer');
 }
-
-var_dump(strlen($data));
-$server->send($fd, 'ok');

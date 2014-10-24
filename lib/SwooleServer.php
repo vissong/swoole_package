@@ -292,10 +292,6 @@ class SwooleServer {
      */
     public function onTask($server, $taskId, $fromId, $data) {
 
-        if (strpos($data, 'sysProf') !== false) {
-            self::log('prof', str_replace('sysProf', '', $data));
-        }
-
         require self::_filePath('task');
     }
 
@@ -393,8 +389,7 @@ class SwooleServer {
 
         // 如果原有 prof 保存到日志
         if ($server->prof && $server->prof['c']) {
-            // 扔到异步进程
-            $server->task('sysProf' . json_encode($server->prof));
+            self::log('prof', json_encode($server->prof));
         }
 
         return array(

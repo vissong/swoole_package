@@ -21,4 +21,3 @@ if [[ ${master} -lt 1 ]] || [[ ${manager} -lt 1 ]] || [[ ${check} != 'ok' ]]; th
 
     /bin/sh ${start_script}
 fi
-

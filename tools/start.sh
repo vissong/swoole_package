@@ -12,6 +12,9 @@ fi
 
 ${phpPath} ${main_script}
 
+# wait for log
+sleep 1
+
 master_pid=`cat ${master_pid_log}`
 manager_pid=`cat ${manager_pid_log}`
 
